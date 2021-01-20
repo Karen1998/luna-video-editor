@@ -10,8 +10,9 @@ import { SnackbarProvider } from 'notistack';
 import createTheme from './styles/theme';
 import { useGlobalStyles } from './styles/global';
 import './styles/vendor/reset.css';
-import BaseEditorContainer from './components/BaseEditor/BaseEditorContainer';
+import './styles/vendor/global.css';
 
+import BaseEditorContainer from './containers/BaseEditor';
 
 const jss = create({
   ...jssPreset(),
